@@ -1,0 +1,25 @@
+<section id="resume">
+    <div class="resume-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-9 col-sm-offset-3 resumeWrapper">
+                    <!-- Section Title -->
+                    <div class="section-title">
+                        <h2><span>02</span>Resumen</h2>
+                    </div><!-- end Section Title -->
+                    <!-- Resume box 1 -->
+                    <div class="resume-box" *ngFor="let data of resume">
+                        <div>
+                            <i class="icon_pencil"></i>
+                        </div>
+                        <div>
+                            <h3>{{ data.title }}</h3>
+                            <span>{{ data.subtitle}}</span>
+                            <p>{{ data.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+</section>

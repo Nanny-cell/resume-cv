@@ -8,3 +8,17 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'resumen-cv';
 }
+
+
+/**
+ * Shared
+ * 
+ * Sidebar  
+ * Social icons
+ * Loader
+ * 
+ * 
+ * 
+ * Service services/dataServices
+ * 
+ */
